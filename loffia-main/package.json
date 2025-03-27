@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbo",
+    "dev": "cross-env PORT=3000 next dev --turbo",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -38,6 +38,7 @@
     "twilio": "^5.4.0"
   },
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "eslint": "^8",
     "eslint-config-next": "14.2.16",
     "postcss": "^8",

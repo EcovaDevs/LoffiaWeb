@@ -16,7 +16,7 @@ export default async function connectToMongoDB() {
 
   try {
     const cnx = await connect(process.env.MONGODB_URI, {
-      dbName: "Ecowell",
+      dbName: "Loffia",
       socketTimeoutMS: 30000,
       serverSelectionTimeoutMS: 30000, // increasing timeout to 30 seconds
     });

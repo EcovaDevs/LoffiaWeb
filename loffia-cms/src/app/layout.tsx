@@ -10,7 +10,7 @@ import "../index.scss";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "EcoWell - Admin",
+  title: "Loffia - Admin",
   description: "Get Yourself some protines",
   icons: { icon: "./favicon.ico" },
   keywords: "protine, protines, healthy protines, suppliments",

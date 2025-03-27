@@ -11,7 +11,7 @@ const Footer = () => {
           <Row>
             <Col md="6" className="footer-copyright">
               <p className="mb-0">
-                Copyright © {new Date().getFullYear()} Ecowell All rights
+                Copyright © {new Date().getFullYear()} Loffia All rights
                 reserved.
               </p>
             </Col>

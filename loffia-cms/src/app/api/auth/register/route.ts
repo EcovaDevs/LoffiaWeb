@@ -48,7 +48,7 @@ export const POST = async (request: NextRequest) => {
       await transporter.sendMail({
         from: process.env.GMAIL_USER,
         to: email,
-        subject: "EcoWell - Verify Email",
+        subject: "Loffia - Verify Email",
         text: "Email Verification",
         html: body,
       });
@@ -90,7 +90,7 @@ export const POST = async (request: NextRequest) => {
       await transporter.sendMail({
         from: process.env.GMAIL_USER,
         to: email,
-        subject: "EcoWell - Admin credentials",
+        subject: "Loffia - Admin credentials",
         text: "Admin login credentials",
         html: body,
       });

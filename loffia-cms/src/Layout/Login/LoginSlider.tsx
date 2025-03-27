@@ -25,7 +25,7 @@ const LoginSlider = () => {
         <Slider className="single-item" {...settings}>
           {[
             {
-              title: "Welcome to Ecowell",
+              title: "Welcome to Loffia",
               description:
                 "Manage your eco-friendly products, orders, and inventory all in one place.",
             },
