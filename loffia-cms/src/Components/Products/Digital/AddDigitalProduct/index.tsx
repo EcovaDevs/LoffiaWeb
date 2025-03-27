@@ -106,7 +106,7 @@ const AddDigitalProduct = () => {
   };
 
   const [additionalInfoStates, setAdditionalInfoStates] = useState({
-    manufacturedBy: "Ecowell",
+    manufacturedBy: "Loffia",
     countryOfOrigin: "India",
     phone: "7065937377",
     email: "contact@ecowellonline.com",

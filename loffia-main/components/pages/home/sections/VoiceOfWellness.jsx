@@ -100,7 +100,7 @@ const VoiceOfWellness = () => {
             Voices Of Wellness
           </h1>
           <p className="text-sm sm:text-xl">
-            Real Stories. Genuine Transformations. See How Ecowell
+            Real Stories. Genuine Transformations. See How Loffia
             <br className="hidden sm:flex" />
             Is Redefining Well-Being For Our Community.
           </p>

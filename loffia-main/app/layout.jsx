@@ -17,8 +17,8 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "Ecowell",
-  description: "EcoWell - Get yourself some protiens",
+  title: "Loffia",
+  description: "Loffia - Get yourself some protiens",
 };
 
 export default async function RootLayout({ children }) {

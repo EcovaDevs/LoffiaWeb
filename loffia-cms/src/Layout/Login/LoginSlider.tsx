@@ -17,7 +17,7 @@ const LoginSlider = () => {
           <Image
             height={80}
             width={80}
-            alt="Ecowell Logo"
+            alt="Loffia Logo"
             src="/logo.png"
             className="Img-fluid"
           />

@@ -17,7 +17,7 @@ const FaqSchema = new Schema({
 });
 
 const AdditionalInfoSchema = new Schema({
-  manufacturedBy: { type: String, required: true, default: "Ecowell" },
+  manufacturedBy: { type: String, required: true, default: "Loffia" },
   countryOfOrigin: { type: String, required: true, default: "India" },
   phone: { type: String, required: true, default: "7065937377" },
   email: { type: String, required: true, default: "contact@ecowellonline.com" },

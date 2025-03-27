@@ -18,7 +18,7 @@ const WhyChooseUs = () => {
           Why to choose us?
         </h2>
         <p className="text-gray-950 max-w-2xl lg:max-w-xl mx-auto text-lg md:text-xl lg:text-2xl font-light">
-          At Ecowell, we don&apos;t just create products – we{" "}
+          At Loffia, we don&apos;t just create products – we{" "}
           <span className="italic font-serif font-semibold text-primary-clr">
             craft experiences
           </span>{" "}

@@ -109,10 +109,10 @@ export const footerData = {
     ],
   },
   companyInfo: {
-    name: "Ecowell",
+    name: "Loffia",
     logo: "/logo.png",
     description:
-      "At Ecowell, we blend science with the finest natural ingredients to craft premium wellness products. From muscle support to radiant skin, our range is designed to fuel your body, mind, and soul.",
+      "At Loffia, we blend science with the finest natural ingredients to craft premium wellness products. From muscle support to radiant skin, our range is designed to fuel your body, mind, and soul.",
   },
   socialMedia: [
     { icon: Facebook, href: "https://www.facebook.com" },
@@ -123,7 +123,7 @@ export const footerData = {
   ],
   copyright: {
     year: new Date().getFullYear(),
-    company: "Ecowell, Inc.",
+    company: "Loffia, Inc.",
     links: [
       { label: "Privacy Policy", href: "/policies" },
       { label: "Terms of Service", href: "/terms" },
@@ -155,7 +155,7 @@ export const features = [
   {
     title: "Empowering Your Journey",
     description:
-      "With Ecowell, you're not just buying a product; you're joining a community committed to helping you thrive.",
+      "With Loffia, you're not just buying a product; you're joining a community committed to helping you thrive.",
     image: "/p3.png",
   },
   {

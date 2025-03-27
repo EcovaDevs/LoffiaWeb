@@ -14,7 +14,7 @@ export default async function RootLayout({ children }) {
       <CartProvider>
         <WishlistProvider>
           <NotificationProvider>
-            <Navbar companyName="Ecowell" />
+            <Navbar companyName="Loffia" />
             {children}
             <Footer />
           </NotificationProvider>

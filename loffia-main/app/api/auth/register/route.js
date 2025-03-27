@@ -7,7 +7,7 @@ import {
   transporter,
   verifyOtpFromPhone,
 } from "@/app/api/core";
-import { revalidatePath } from 'next/cache';
+import { revalidatePath } from "next/cache";
 
 export const POST = async (request) => {
   const {
@@ -63,7 +63,7 @@ export const POST = async (request) => {
       await transporter.sendMail({
         from: process.env.GMAIL_USER,
         to: email,
-        subject: "EcoWell - Verify Email",
+        subject: "Loffia - Verify Email",
         text: "Email Verification",
         html: body,
       });
@@ -103,7 +103,7 @@ export const POST = async (request) => {
         await transporter.sendMail({
           from: process.env.GMAIL_USER,
           to: email,
-          subject: "EcoWell - User credentials",
+          subject: "Loffia - User credentials",
           text: "User login credentials",
           html: body,
         });
@@ -115,7 +115,8 @@ export const POST = async (request) => {
           last_name,
           email,
           password: hashPassword,
-          profile_image: "https://i.pinimg.com/1200x/b5/12/68/b5126803cf115b044849b64ca565a4a7.jpg"
+          profile_image:
+            "https://i.pinimg.com/1200x/b5/12/68/b5126803cf115b044849b64ca565a4a7.jpg",
         });
       } else {
         return new NextResponse("Invalid Otp!", { status: 405 });
@@ -128,7 +129,8 @@ export const POST = async (request) => {
           first_name,
           last_name,
           phone_number,
-          profile_image: "https://i.pinimg.com/1200x/b5/12/68/b5126803cf115b044849b64ca565a4a7.jpg"
+          profile_image:
+            "https://i.pinimg.com/1200x/b5/12/68/b5126803cf115b044849b64ca565a4a7.jpg",
         });
       }
     }
