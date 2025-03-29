@@ -29,12 +29,12 @@ export default async function RootLayout({
       <head>
         <link
           rel="icon"
-          href={`../../assets/images/logo/favicon.png`}
+          href={`../../assets/images/favicon/favicon.ico`}
           type="image/x-icon"
         />
         <link
           rel="shortcut icon"
-          href={`../../assets/images/dashboard/favicon.png`}
+          href={`../../assets/images/favicon/favicon.ico`}
           type="image/x-icon"
         />
 
