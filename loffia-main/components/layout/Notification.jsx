@@ -7,7 +7,9 @@ const Notification = () => {
   const { handleCloseNotification } = useNotification();
   return (
     <div className="w-full h-fit flex-between bg-primary-clr p-2 px-3 md:px-8 overflow-hidden">
-      <div className="text-sm text-white font-bold">Welcome to the L'OFFIA</div>
+      <div className="text-sm text-white font-bold">
+        Welcome to the L&apos;OFFIA
+      </div>
       <RxCross1
         // onClick={() => signOut()}
         onClick={handleCloseNotification}
