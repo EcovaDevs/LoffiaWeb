@@ -6,9 +6,9 @@ import {
   Youtube,
 } from "lucide-react";
 import { CiLocationOn, CiMail, CiPhone } from "react-icons/ci";
-import { GiDna2, GiHoneycomb } from "react-icons/gi";
-import { SiThunderstore } from "react-icons/si";
-import { TbDeviceLandlinePhone } from "react-icons/tb";
+import { GiComb, GiFragrance } from "react-icons/gi";
+import { BiBody } from "react-icons/bi";
+import { MdFace } from "react-icons/md";
 
 export const emailRegex =
   /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -132,10 +132,10 @@ export const footerData = {
 };
 
 export const trendingSearchData = [
-  { icon: <GiDna2 size={20} />, text: "Protein" },
-  { icon: <GiHoneycomb size={20} />, text: "Collagen" },
-  { icon: <SiThunderstore size={20} />, text: "Stamina" },
-  { icon: <TbDeviceLandlinePhone size={20} />, text: "Diabetic" },
+  { icon: <MdFace size={20} />, text: "Face" },
+  { icon: <GiComb size={20} />, text: "Hair Care" },
+  { icon: <BiBody size={20} />, text: "Body Care" },
+  { icon: <GiFragrance size={20} />, text: "Fragrance" },
 ];
 
 // bento grid section data
